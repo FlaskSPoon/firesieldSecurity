@@ -1,0 +1,74 @@
+
+---Downloaded files---
+The import files for: Redlight were successfully downloaded!
+Initial max execution time = 36000
+Files info:
+Site URL = http://fireshieldsec.com.com
+Data file = C:\laragon\www\fireshieldsec.com/wp-content/themes/redlight//demo/redlight-demo-content.xml
+Widget file = C:\laragon\www\fireshieldsec.com/wp-content/themes/redlight//demo/site-settings.json
+Customizer file = C:\laragon\www\fireshieldsec.com/wp-content/themes/redlight//demo/redlightcustomizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[ERROR] Failed to import "pricing-plan-icon1" (Fichier média)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "plan-2-icon" (Fichier média)
+[ERROR] Failed to import "about-team-img1" (Fichier média)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "about-team-img3" (Fichier média)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "blog-section-img1" (Fichier média)
+
+
+---Importing widgets---
+content : Sidebar does not exist in theme (moving widget to Inactive)
+
+
+settings : Sidebar does not exist in theme (moving widget to Inactive)
+
+template - No Title - Site does not support widget
+colors_enable_styleguide_preview - No Title - Site does not support widget
+system_colors - No Title - Site does not support widget
+custom_colors - No Title - Site does not support widget
+typography_enable_styleguide_preview - No Title - Site does not support widget
+system_typography - No Title - Site does not support widget
+custom_typography - No Title - Site does not support widget
+default_generic_fonts - No Title - Site does not support widget
+page_title_selector - No Title - Site does not support widget
+activeItemIndex - No Title - Site does not support widget
+viewport_md - No Title - Site does not support widget
+viewport_lg - No Title - Site does not support widget
+active_breakpoints - No Title - Site does not support widget
+__globals__ - No Title - Site does not support widget
+button_border_radius - No Title - Site does not support widget
+button_padding - No Title - Site does not support widget
+
+metadata : Sidebar does not exist in theme (moving widget to Inactive)
+
+
+Sidebar : 
+
+Bloc - No Title - Imported
+Bloc - No Title - Imported
+Bloc - No Title - Imported
+Bloc - No Title - Imported
+Bloc - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

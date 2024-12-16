@@ -1,0 +1,104 @@
+/*-------- Default Items ------------ */
+:root {
+    --e-global-color-primary: #333333;
+    --e-global-color-text: #7c7c7c;
+    --e-global-color-accent: #197bff;
+    --e-global-color-white: #ffffff;
+    --e-global-color-yellow: #f2d22f;
+    --e-global-heading-font: 'Inter', sans-serif;
+    --e-global-body-font: 'Inter', sans-serif;
+}
+/* redlight Testimonial Widget */
+.redlight-testimonial-section .redlight-testimonial-box {
+    background: var(--e-global-color-white);
+    width: 100%;
+    padding: 40px 43px 40px 35px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.redlight-testimonial-section .redlight-testimonial-box .user-content-outer {
+    margin-bottom: 20px;
+}
+.redlight-testimonial-section .redlight-testimonial-box .user-content {
+    padding-left: 20px;
+}
+.redlight-testimonial-section .redlight-testimonial-box .user-name {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+    font-family: var(--e-global-heading-font);
+    color: var(--e-global-color-primary);
+    margin-bottom: 6px;
+}
+.redlight-testimonial-section .redlight-testimonial-box .designation {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-body-font);
+    display: block;
+}
+.redlight-testimonial-section .redlight-testimonial-box .content {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: var(--e-global-color-primary);
+    font-family: var(--e-global-body-font);
+    margin-bottom: 22px;
+}
+.redlight-testimonial-section .redlight-testimonial-box ul {
+    line-height: 0;
+}
+.redlight-testimonial-section .redlight-testimonial-box ul li {
+    display: inline-block;
+    margin-right: -2px;
+}
+.redlight-testimonial-section .redlight-testimonial-box ul li i {
+    color: var(--e-global-color-yellow);
+    font-size: 16px;
+    line-height: 12px;
+}
+.redlight-testimonial-section .owl-carousel .owl-nav {
+    display: none;
+}
+.redlight-testimonial-section .owl-carousel .owl-dots {
+    display: block !important;
+    margin-top: 40px !important;
+    line-height: 0;
+    text-align: center;
+}
+.redlight-testimonial-section .owl-carousel .owl-dots button:hover {
+    background-color: transparent !important;
+}
+.redlight-testimonial-section .owl-carousel .owl-dots .owl-dot span {
+    background: #d6d6d6;
+    width: 10px;
+    height: 10px;
+    margin: 0 6px;
+    transition: all 0.3s ease-in-out;
+    display: block;
+    border-radius: 100px;
+}
+.redlight-testimonial-section .owl-carousel .owl-dots .owl-dot:hover span {
+    background: var(--e-global-color-vivid-yellow);
+}
+.redlight-testimonial-section .owl-carousel .owl-dots .owl-dot.active span {
+    background: var(--e-global-color-vivid-yellow);
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+    display: block;
+    border-radius: 100px;
+}
+.redlight-testimonial-section .owl-carousel .owl-dots .owl-dot:focus {
+    outline: none;
+}
+.redlight-testimonial-section .owl-carousel .owl-dots button:focus {
+    outline: none;
+    background-color: transparent;
+}
+.redlight-rating2{
+    display: flex;
+    flex-direction: row;
+}

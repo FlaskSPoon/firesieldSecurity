@@ -1,0 +1,61 @@
+/*!
+Theme Name: Redlight
+Theme URI: https://designingmedia.com/redlight
+Author: Designing Media
+Author URI: http://designingmedia.com
+Description: Explore the cutting-edge RedLight cybersecurity theme, fortified with the powerful RedLight Toolkit plugin. Elevate your online security with dynamic widgets, seamlessly integrating advanced features for a robust defense. Unleash the power of redlight, safeguarding your digital presence with style and efficiency. Enhance your cybersecurity posture effortlessly with this theme, tailored for modern protection in the digital landscape.
+Version: 1.0
+Requires PHP: 7.0
+Tested up to: 5.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: redlight
+Tags: RedLight Theme, Cybersecurity Design, Digital Defense, Online Protection, Web Security, Cyber Awareness, Theme Customization, responsive design, multi-purpose, customer support, modern design, seo friendly, ecommerce
+*/
+
+.no-breadcrumbs.page-title-area:after{ display: none; }
+
+.navbar-area .nav-container .navbar-collapse #menu-all-pages > li + li{ margin-left: 10px; }
+.navbar-area .nav-container .navbar-collapse #menu-all-pages li{ padding: 0 7px; }
+/*Unit test css*/
+.navbar-area .nav-container .logo a.retina-logo{
+	display: none;
+}
+.wpcf7 form.sent .wpcf7-response-output, 
+.wpcf7-not-valid-tip {
+    color: #7e7e7e;
+    font-size: 1em;
+    font-weight: normal;
+    display: block;
+    margin-top: 25px;
+    position: absolute;
+    width: 445px;
+    display: block;
+    left: 0;
+    border: 1px solid #d9d9d9;
+    padding: 4px 5px 1px 10px;
+}
+.banner-inner .wpcf7 form.sent .wpcf7-response-output, 
+.banner-inner .wpcf7-not-valid-tip {
+    color: #fff;
+    border: 1px solid #fff;
+}
+.wpcf7-spinner {
+    display: none;
+}
+.banner-inner .wpcf7 form.invalid .wpcf7-response-output, 
+.banner-inner .wpcf7 form.unaccepted .wpcf7-response-output, 
+.banner-inner .wpcf7 form.payment-required .wpcf7-response-output {
+    border-color: #fff;
+    color: #fff;
+    margin-top: 0;
+}
+.wpcf7 form.invalid .wpcf7-response-output {
+    display: none;
+}
+
+
+
+
+
+
