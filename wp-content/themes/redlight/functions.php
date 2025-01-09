@@ -158,6 +158,11 @@ function redlight_shortcode_extra_content_remove( $content ) {
     get_template_part('template-parts/default', 'menu');
 }
 
+function enable_disabled_widgets() {
+    add_filter('widget_text', 'do_shortcode'); // Réactive le widget Texte avec support des shortcodes
+    add_filter('widget_text', 'do_blocks'); // Active le support pour l’éditeur de blocs dans les widgets
+}
+add_action('init', 'enable_disabled_widgets');
 
 /**
  * Redlight CSS Include
